@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- parellex -->
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- font awsome -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Lato:ital,wght@1,100&family=Montserrat:wght@500&family=Nanum+Gothic&family=Nunito+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css1.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Lato:ital,wght@1,100&family=Montserrat:wght@500&family=Nanum+Gothic&family=Raleway:wght@200&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Lato:ital,wght@1,100&family=Montserrat:wght@500&family=Nanum+Gothic&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Lato:ital,wght@1,100&family=Montserrat:wght@500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <div id="first_line" class=" border border-dark p-1" style="--bs-border-opacity: .10;" id="home">
+    <div class="row ">
+      <div class="col-3"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;+91 6355643853</div>
+      <div class="col-4"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Mon-Sat: 7:30am-8:30pm</div>
+      <!-- <div class="col-1 rounded float-end" id="icon"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="col-1" id="icon"><i class=" fab fa-instagram"></i></div> -->
+      <!-- <div class="col-1"></div> -->
+      <!-- <div class="col-1"><a href="https://instagram.com/sycho__08?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-facebook-f me-3"></i></a></div> -->
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-1 ms-3 d justify-content-end " id="icon"><a
+          href="https://www.facebook.com/profile.php?id=100084193921058"><i
+            class="fa-brands fa-facebook-f me-3"></i></a><a
+          href="https://instagram.com/danger_auto_care23?igshid=YmMyMTA2M2Y="><i
+            class=" fab fa-instagram me-3"></i></a><a
+          href="https://www.google.com/maps/place/abhishek+vithani/@21.7682031,72.1138396,15z/data=!4m2!3m1!1s0x0:0xb99329f964fef0b5?sa=X&ved=2ahUKEwinsMna1pv5AhWPzjgGHUVoAlkQ_BJ6BAg4EAc"><i
+            class=" fa-solid fa-location-dot me-1"></a></i></div>
+    </div>
+  </div>
+  <!-- </div> -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light mt-3">
+    <div class="container-fluid d-flex " id="navbar">
+      <a class="navbar-brand fs-1 align-baseline w-auto p-2" href="#" id="head_nav">DANGER AUTO CARE </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#service">Service</a>
+          <a class="nav-link" href="#galary">Gallary</a>
+          <a class="nav-link" href="#about">About us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- carosle -->
+  <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1 (7).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>First slide label</h5> -->
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5> -->
+          <!-- <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Third slide label</h5> -->
+          <!-- <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- why choose us? -->
+  <div class="container mt-3">
+    <div class="row mt-5" id="why_choose_us">
+      <div class="col-12 d-flex justify-content-center">
+        WHY CHOOSE US ?
+      </div>
+    </div>
+  </div>
+  <div class="card text-center mt-4" id="why_choose_us_2">
+    <div class="card-body">
+      <h5 class="card-title">We are one of the leading auto repair shops serving customers in India.
+      </h5>
+      <h5 class="card-text">All mechanic services are performed by highly qualified mechanics.</h5>
+    </div>
+
+  </div>
+
+
+  <!-- card -->
+  <div class="container d-flex justify-content-evenly mt-5">
+    <div class="row row-cols-1 row-cols-md-3 ms-4  g-4 ">
+      <div class="col">
+        <div class="card h-100 ms-5 ps-4 " id="card_1">
+          <img src="22.png" class=" card-img-top w-50 h-30 position-relative" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold ">EVERY JOB IS PERSONAL</h5>
+            <p class="card-text pt-2 pe-4" id="card_3_p">The bike we drive say a lot about us and this bike is your and
+              will take best service of it.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col ">
+        <div class="card  ms-5 ps-4 " id="card_1">
+          <img src="2.png" class="card-img-top w-50 h-30 position-relative" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold ">BEST MATERIALS</h5>
+            <p class="card-text pt-2 pe-4" id="card_3_p">We have invested in all the latest specialist tools and
+              diagnostic software that is specifically tailored for the software in your vehicle..</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  ms-5 ps-4 pe-1" id="card_1">
+          <img src="3.png" class="card-img-top w-50 h-30 position-relative" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold ">PROFESSIONAL STANDARDS</h5>
+            <p class="card-text pt-2 pe-4" id="card_3_p ">Our auto repair shop is capable of servicing a variety of
+              models. We only do the work that is needed to fix your problem.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VEHICLES SERVICED -->
+
+
+  <div class="row mt-5" id="service">
+    <div class="col-md-6">
+      <img class="img-fluid " src="12.jpg">
+    </div>
+    <div class="col-md-6" id="serviced_item">
+      <div class="list-group">
+        <div class="pt-5">
+          <div class="card text-center me-2" id="card_bg">
+
+            <div class="card-body">
+              <h2 class="card-title pb-3" id="why_choose_us"><i class="fa-solid fa-user-gear"></i>&nbsp VEHICLES
+                SERVICED</h5>
+                <p class="card-text mt-3 mb-1" id="why_choose_us_2">We provide top notch maintenance service for all
+                  types of vehicles.
+                  We are certified to service and repair the following makes:</p>
+
+            </div>
+          </div>
+          <!-- <p class="text-center text-truncate"> -->
+          <div class="text-center">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-success mt-5" id="list_a"><i
+                class="fa-solid fa-check"></i>&nbsp TVS Motorcycle </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary " id="list_a"><i
+                class="fa-solid fa-check"></i>&nbsp Hero Motorcycle </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger" id="list_a"><i
+                class="fa-solid fa-check"></i>&nbsp Bajaj Motorcycle</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" id="list_a"><i
+                class="fa-solid fa-check"></i>&nbsp Honda Motorcycle </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning" id="list_a"><i
+                class="fa-solid fa-check"></i>&nbsp Yamaha Motorcycle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- auto reaper service -->
+    <div class="list-group">
+      <div class="pt-5">
+        <div class="card text-center me-2" id="card_border">
+          <div class="card-body">
+            <h2 class="card-title pb-3" id="auto_reaper"></i>&nbsp AUTO REPAIR GALLARY</h5>
+              <p class="line-break " id="p"></p>
+              <p class="card-text pt-2 pe-4" id="auto_reaper_2">We offer a full range of garage services to vehicle
+                owners located in Gujarat-Bhavnagar.<br>
+                Our professinals know how to handle a wide range of car services.</p>
+
+          </div>
+        </div>
+
+        <!-- 3 photos and review -->
+        <div class="container d-flex justify-content-evenly mt-5" id="galary">
+          <div class="row row-cols-1 row-cols-md-2 ms-5  g-4 ">
+            <div class="col">
+              <div class="card h-100 ms-5 ps-2 " id="card_1">
+                <img src="c2.jpg" class=" card-img-top w-50 h-30 position-relative" alt="...">
+                <div class="card-body">
+                  <h5><a class="p-1 rounded" href="#imple-list-item-1">ENGINE DIAGNOSTICS</a></h5>
+                  <!-- <h5 class="card-title fw-semibold ">ENGINE DIAGNOSTICS</h5> -->
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col ">
+              <div class="card  ms-5 ps-2 " id="card_1">
+                <img src="c1.jpg" class="card-img-top w-50 h-30 position-relative" alt="...">
+                <div class="card-body pe-5">
+                  <h5><a class="p-1 rounded" href="#imple-list-item-1">LUBE AND OIL</a></h5>
+                  <!-- <h5 class="card-title fw-semibold ">LUBE AND OIL</h5> -->
+                </div>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  ms-5 ps-2 pe-1" id="card_1">
+                <img src="c3.jpg" class="card-img-top w-50 h-30 position-relative" alt="...">
+                <div class="card-body">
+                  <h5><a class="p-1 rounded" href="#imple-list-item-1">BELTS AND HOSES</a></h5>
+                  <!-- <h5 class="card-title fw-semibold ">BELTS AND HOSES </h5> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  ms-5 ps-2 pe-1" id="card_1">
+                <img src="c4.jpg" class="card-img-top w-50 h-30 position-relative" alt="...">
+                <div class="card-body">
+                  <h5><a class="p-1 rounded" href="#imple-list-item-1">CARBURETOR AND FILTER</a></h5>
+                  <!-- <h5 class="card-title fw-semibold ">CARBURETOR AND FILTER  </h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--parellex  -->
+
+        <div id="parallax-world-of-ugg">
+
+
+          <section>
+            <div class="parallax-two">
+              <h2>Conquer from within...!</h2>
+            </div>
+          </section>
+
+          <section>
+            <div class="block">
+              <p><span class="first-character ny">A</span> Motorbike, often called a motorbike, bike, cycle, or
+                (if three-wheeled) trike, is a two- or three-wheeled motor vehicle.[1][2][3] Motorbike design varies
+                greatly to suit a range of different purposes: long-distance travel, commuting, cruising, sport
+                (including racing), and off-road riding. Motorbike is riding a motorbike and being involved
+                in other related social activity such as joining a motorbike club and attending motorbike rallies.
+                Globally, motorbike are comparably popular to cars as a method of transport. In 2021, approximately
+                58.6 million new motorbike were sold around the world, fewer than the 66.7 million cars sold over
+                the same period.In 2014, the three top motorbike producers globally by volume were Honda (28%),
+                Yamaha (17%) (both from Japan), and Hero MotoCorp (India).[8] In developing countries, motorbike
+                are considered utilitarian due to lower prices and greater fuel economy. Of all the motorbike
+                in the world, 58% are in the Asia-Pacific and Southern and Eastern Asia regions, excluding car-centric
+                Japan. </p>
+              <p class="line-break margin-top-10" id="p"></p>
+              <p class="margin-top-10">Since motorbike are lighter than almost all cars, they can accelerate more
+                quickly. But it also makes them not as safe as cars, because they do not have a protecting chassis
+                around them like cars. Very often motorbike riders are injured heavily in accidents. Motorbike riders
+                should wear a helmet and other protective clothing like shoes and gloves, of which some have armor.
+                This special clothing may reduce the rider's injuries in an accident. Motorbike also do not protect
+                riders against wind and rain. That makes it difficult to drive in winter or during bad weather.
+
+                In poor countries, motorbike are used by many as a cheap method of transportation. Many people
+                who do not have the money to buy a car can afford a small motorbike. In rich countries, large
+                powerful motorbike are used more as a hobby or sport. </p>
+            </div>
+          </section>
+
+
+        </div>
+        <!-- COMPANY OVERVIEW -->
+        <div class="list-group">
+          <div class="pt-5">
+            <div class="card text-center me-2" id="card_border">
+              <div class="card-body">
+                <h2 class="card-title pb-3" id="auto_reaper">&nbsp COMPANY OVERVIEW</h2>
+                <p class="card-text pt-2 pe-4" id="auto_reaper_2">We can help you with everything from an oil change to
+                  an engine change.<br>
+                  We can handle any problem on both foreign and domestic vehicles.</p>
+              </div>
+            </div>
+
+            <!-- company overview photos -->
+            <div class="container mt-5">
+              <div class="row">
+                <div class="card mb-4 mx-5 ms-5 col-md-3" id="list_a" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 mb-5 mt-2">
+                      <img src="Untitled(6)(1).jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fw-semibold">BIKE BREACK SERVICE</h5>
+                        <p class="card-text">
+                          Services consequat luctus at justo auctor metus est donec.
+                          Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-4  mx-5 col-md-3" id="list_a" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="Untitled(4)(2).jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fw-semibold ">OIL CHANGE</h5>
+                        <p class="card-text">
+                          Services consequat luctus at justo auctor metus est donec.
+                          Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-4 mx-5 col-md-3" id="list_a" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="Untitled(5)(1).jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fw-semibold ">ENGINE SERVICE</h5>
+                        <p class="card-text">
+                          Services consequat luctus at justo auctor metus est donec.
+                          Tempus terminal morbi nulla donec elite maecenas modern forte elementum vehicula.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- logo -->
+            <hr>
+            <div id="about">
+              <div class="row d-flex justify-content-center" id="logo">
+                <div class="col-1 mx-3" id="logo_photos"><img src="hero.png"></div>
+                <div class="col-1 mt-2 mx-3" id="logo_photos"><img src="honda.png"></div>
+                <div class="col-1 mb-1 mx-3" id="logo_photos"><img src="tvs(2).png"></div>
+                <div class="col-1 mx-3" id="logo_photos"><img src="bajaj(2).png"></div>
+              </div>
+              <div class="mt-4 row d-flex justify-content-center" id="address_panel">
+                <div class="col-6 " id="address"><i class="fa-solid fa-location-dot "></i>&nbsp;151-B shiv shakti so.
+                  aksharpark road ,laltanki,</br class="justify-content-center"> bhavnagar-364003,gujrat</div>
+                <div class="col-3 pt-3" id="address" fs-3><i class="fa-solid fa-phone"></i>&nbsp;+91 6355643853 -Ashwin
+                  Jadav </div>
+              </div>
+            </div>
+            <script src="https://kit.fontawesome.com/266b76cb57.js" crossorigin="anonymous"></script>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+              crossorigin="anonymous"></script>
+</body>
+
+</html>
